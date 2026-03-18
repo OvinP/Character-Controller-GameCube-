@@ -1,0 +1,63 @@
+{
+    "version": 1,
+    "name": "LegControlls",
+    "maps": [
+        {
+            "name": "LeftLegSwing",
+            "id": "d5f826e9-8929-4679-ae18-fc800ca1193c",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "6d2acd4b-07ba-4c22-8647-36035f3044bd",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4b879a5c-14fd-4afa-9d89-18ee2a2e074f",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightLegSwing",
+            "id": "df7451c8-4c50-48d8-9514-a029fc82a889",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "0d347427-9d61-44c4-accf-b05f9adbf743",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "74f6dca9-09c1-4cd8-ad2a-540e42e8b4cd",
+                    "path": "<Gamepad>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
