@@ -19,6 +19,8 @@ public class SimpleBalance : MonoBehaviour
 
         if (angle > 180f) angle -= 360f;
 
+       
+
         Vector3 torque = axis * (angle * uprightStrength) - hips.angularVelocity * uprightDamping;
 
         hips.AddTorque(torque);
